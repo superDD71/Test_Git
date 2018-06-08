@@ -25,34 +25,33 @@ public class Sdz5 {
 			
 			
 			
-			System.out.println("TempÃ©rature Ã  convertir : ");
+			System.out.println("Température à convertir : ");
 			temperatureChoisie = sc.nextFloat();
 			if (modeChoisi == 1)
 			{			
 				temperatureConvertie = 9/5*temperatureChoisie +32;
 				arrondiTempConv= arrondi(temperatureConvertie, 2);
-				System.out.println(temperatureChoisie + " Â°C est Ã©gale Ã  : " + arrondiTempConv + " Â°F");
+				System.out.println(temperatureChoisie + " °C est égale à : " + arrondiTempConv + " °F");
 			}
 			else
 			{
 				temperatureConvertie = ((temperatureChoisie-32)*5)/9;
 				arrondiTempConv= arrondi(temperatureConvertie, 2);
-				System.out.println(temperatureChoisie + " Â°F est Ã©gale Ã  : " + arrondiTempConv + " Â°C");
+				System.out.println(temperatureChoisie + " °F est égale à : " + arrondiTempConv + " °C");
 			}
 			
 			sc.nextLine();
 			
 			do
 			{
-			System.out.println("Voulez-vous convertir une autre tempÃ©rature? O/N?");
+			System.out.println("Voulez-vous convertir une autre température? O/N?");
 			restart = sc.nextLine().charAt(0);
 			}while (restart != 'O' && restart != 'N' && restart != 'o' && restart != 'n');
 			
 			
 		}while (restart == 'O' || restart == 'o');
 		
-	System.out.println("A bientÃ´t les boloss!!!!!!!!!!!!!");
-		System.out.println("Ce Fichier est modifiÃ© directement sur GitHub!!");
+	System.out.println("A bientôt les boloss!!!!!!!!!!!!!");
 	
 	}
 	
