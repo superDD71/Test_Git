@@ -51,7 +51,7 @@ public class Sdz5 {
 			
 		}while (restart == 'O' || restart == 'o');
 		
-	System.out.println("A bientôt");
+	System.out.println("A bientôt les loulous");
 	
 	}
 	
